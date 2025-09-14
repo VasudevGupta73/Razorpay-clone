@@ -1,4 +1,5 @@
 {
+  "homepage": "https://VasudevGupta73.github.io/Razorpay-clone",
   "name": "razorpay",
   "version": "1.0.0",
   "description": "",
@@ -7,7 +8,7 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@tailwindcss/cli": "^4.1.11",
